@@ -1,0 +1,6 @@
+version: '2'
+services:
+  nodexporter:
+    image: prom/node-exporter:master
+    ports:
+      - "9100:9100"
